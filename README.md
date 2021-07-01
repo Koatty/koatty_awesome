@@ -13,14 +13,6 @@ Awesome projects for Koatty.
 [koatty_apollo](https://github.com/Koatty/think_apollo)  | ✔️ |  Apollo Plugin . Apollo配置中心插件。
 [koatty_etcd](https://github.com/Koatty/koatty_etcd)  | ✔️ |  Etcd Plugin . Etcd配置中心插件。
 
-### Microservice
-
-名称  | koatty支持 | 备注 | 描述
-------------- | ------------- | ------------- | ------------- 
-[koatty-cloud-consul](https://github.com/Koatty/koatty-cloud-consul) | ✔️ | 开发中 |  基于Consul的微服务管理套件，包括服务注册、发现。
-[koatty-cloud-nacos](https://github.com/Koatty/koatty-cloud-nacos) | ✔️ | 开发中 |  基于Nacos的微服务管理套件，包括服务注册、发现，配置中心等。
-[koatty-SpringCloud](https://github.com/Koatty/koatty-SpringCloud) | ✔️ | 开发中 |  基于SpringCloud的微服务管理套件，包括服务注册、发现。
-
 
 ### Middlewares
 
@@ -29,7 +21,7 @@ Awesome projects for Koatty.
 [think_csrf](https://github.com/thinkkoa/think_csrf)  |✔️ |  CSRF跨站攻击安全处理中间件。
 [think_i18n](https://github.com/thinkkoa/think_i18n)  |✔️ | 国际化中间件，配合多语言文件配置，可以非常方便的实现多语言。还支持路由中指定语言。
 [think_session](https://github.com/thinkkoa/think_session) | ✔️ | Session中间件。支持file、memcache、redis等类型的session存储。
-[think_static](https://github.com/thinkkoa/think_static)  | ✔️ |  静态文件服务中间件。生产环境建议使用nginx进行处理。
+[koatty_static](https://github.com/koatty/koatty_static)  | ✔️ |  静态文件服务中间件。生产环境建议使用nginx进行处理。
 [think_upload](https://github.com/thinkkoa/think_upload)  | ✔️ |  文件上传功能中间件。支持本地存储、FTP、阿里云OSS等方式。
 [think_view](https://github.com/thinkkoa/think_view)  | ✔️ |  模板渲染中间件。支持ejs、jade等模板解析引擎。
 [think_jwt](https://github.com/thinkkoa/think_jwt)  | ✔️ |  JWT token中间件，生成或检查JWT token，代替session机制，方便做单点登录。
@@ -64,6 +56,15 @@ Awesome projects for Koatty.
 [thinkorm](https://github.com/thinkkoa/thinkorm)  | ThinkORM是一个可扩展轻量级的功能丰富的对象-关系映射的数据模型封装框架，使用Node.js实现。如同SQL语言发明一样，ThinkORM试图用一种抽象的统一操作语言，使用户专注于数据操作逻辑而非具体的数据存储类型，达到快速开发和移植的目的。
 [liteQ](https://github.com/thinkkoa/liteQ)  | 轻量级、开箱即用的SQL查询构造器，支持MySQL, PostgreSQL, MariaDB, Sqlite3和Oracle。
 [koatty_store](https://github.com/Koatty/koatty_store)  | Koatty存储驱动，使用Redis存储
+
+
+### Microservice
+
+名称  | koatty支持 | 备注 | 描述
+------------- | ------------- | ------------- | ------------- 
+[koatty-cloud-consul](https://github.com/Koatty/koatty-cloud-consul) | ✔️ | 开发中 |  基于Consul的微服务管理套件，包括服务注册、发现。
+[koatty-cloud-nacos](https://github.com/Koatty/koatty-cloud-nacos) | ✔️ | 开发中 |  基于Nacos的微服务管理套件，包括服务注册、发现，配置中心等。
+[koatty-SpringCloud](https://github.com/Koatty/koatty-SpringCloud) | ✔️ | 开发中 |  基于SpringCloud的微服务管理套件，包括服务注册、发现。
 
 ### Example
 
