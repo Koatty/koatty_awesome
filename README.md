@@ -9,7 +9,7 @@ Awesome projects for Koatty.
 ### Plugins
 
 名称 | 描述
-------------- | ------------- | ------------- 
+------------- | ------------- 
 [koatty_apollo](https://github.com/Koatty/think_apollo)  |  Apollo Plugin . Apollo配置中心插件。
 [koatty_etcd](https://github.com/Koatty/koatty_etcd) |  Etcd Plugin . Etcd配置中心插件。
 [koatty_typeorm](https://github.com/Koatty/koatty_typeorm)   |  typeorm插件，在框架内使用typeorm。
