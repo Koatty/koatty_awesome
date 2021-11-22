@@ -18,7 +18,7 @@ Awesome projects for Koatty.
 ### Middlewares
 
 名称 | 描述
-------------- | ------------- | ------------- 
+------------- | ------------- 
 [koatty_static](https://github.com/koatty/koatty_static)  |  静态文件服务中间件。生产环境建议使用nginx进行处理。
 [koatty_views](https://github.com/koatty/koatty_views)  |  模板渲染中间件。支持ejs、jade等模板解析引擎。
 [think_csrf](https://github.com/thinkkoa/think_csrf)   |  CSRF跨站攻击安全处理中间件。
