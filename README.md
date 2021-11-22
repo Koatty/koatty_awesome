@@ -12,6 +12,7 @@ Awesome projects for Koatty.
 ------------- | ------------- | ------------- 
 [koatty_apollo](https://github.com/Koatty/think_apollo)  | ✔️ |  Apollo Plugin . Apollo配置中心插件。
 [koatty_etcd](https://github.com/Koatty/koatty_etcd)  | ✔️ |  Etcd Plugin . Etcd配置中心插件。
+[koatty_typeorm](https://github.com/Koatty/koatty_typeorm)  | ✔️ |  typeorm插件，在框架内使用typeorm。
 
 
 ### Middlewares
@@ -35,6 +36,9 @@ Awesome projects for Koatty.
 [koatty_logger](https://github.com/Koatty/koatty_logger)  | 控制台日志输出封装。支持info、warn、success、error等多种类型，支持颜色样式，支持日志存储
 [koatty_validation](https://github.com/Koatty/koatty_validation)  | 参数验证库，支持DTO class验证，支持函数装饰器验证
 [koatty_container](https://github.com/Koatty/think_container) | IOC容器，支持依赖管理和自动注入
+[koatty_cacheable](https://github.com/Koatty/koatty_cacheable) | Koatty框架的 CacheAble, Cacheable, CacheEvict 缓存相关支持库
+[koatty_schedule](https://github.com/Koatty/koatty_schedule) | Koatty框架的 Scheduled, SchedulerLock, Lock 计划任务支持库
+[koatty_serve](https://github.com/Koatty/koatty_serve) | Koatty框架的server支持库，目前支持 http1/2, websocket, gRPC server.
 [think_queue](https://github.com/thinkkoa/think_queue)  | 基于redis的异步队列。支持错误重试，支持事件监听等高级功能
 [think_thrift](https://github.com/thinkkoa/think_thrift) | thrift RPC调用封装
 [think_webservice](https://github.com/thinkkoa/think_webservice) | WebService调用封装
