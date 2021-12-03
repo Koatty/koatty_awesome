@@ -13,8 +13,8 @@ Awesome projects for Koatty.
 [koatty_apollo](https://github.com/Koatty/think_apollo)  | 可用 |  Apollo Plugin . Apollo配置中心插件。
 [koatty_etcd](https://github.com/Koatty/koatty_etcd)  | 可用 |  Etcd Plugin . Etcd配置中心插件。
 [koatty_typeorm](https://github.com/Koatty/koatty_typeorm)  | 可用 |  typeorm插件，在框架内使用typeorm。
-[koatty_consul](https://github.com/Koatty/koatty-cloud-consul) | 开发中 |  基于Consul的微服务管理套件，包括服务注册、发现。
-[koatty_nacos](https://github.com/Koatty/koatty-cloud-nacos) | 开发中 |  基于Nacos的微服务管理套件，包括服务注册、发现，配置中心等。
+[koatty_consul](https://github.com/Koatty/koatty_consul) | 开发中 |  基于Consul的微服务管理套件，包括服务注册、发现。
+[koatty_nacos](https://github.com/Koatty/koatty_nacos) | 开发中 |  基于Nacos的微服务管理套件，包括服务注册、发现，配置中心等。
 [koatty-SpringCloud](https://github.com/Koatty/koatty-SpringCloud) | 开发中 |  基于SpringCloud的微服务管理套件，包括服务注册、发现。
 
 ### Middlewares
