@@ -40,6 +40,7 @@ Awesome projects for Koatty.
 [koatty_loader](https://github.com/Koatty/koatty_loader) | Koatty框架的文件加载库， 支持目录自动识别加载文件，支持TS、ES5/6文件
 [koatty_proto](https://github.com/Koatty/koatty_proto) | Protobuf文件转换为Typescript DTO数据类的工具
 [koatty_exception](https://github.com/Koatty/koatty_exception) | Koatty框架的异常处理库，支持HTTP、gRPC协议异常状态码及相关API封装
+[koatty_client](https://github.com/Koatty/koatty_client) | Http、Websocket、gRPC client
 
 ### Command line Tools
 
@@ -51,9 +52,7 @@ Awesome projects for Koatty.
 ### Database and cache
 名称  | 描述
 ------------- | -------------
-[thinkorm](https://github.com/thinkkoa/thinkorm)  | ThinkORM是一个可扩展轻量级的功能丰富的对象-关系映射的数据模型封装框架，使用Node.js实现。如同SQL语言发明一样，ThinkORM试图用一种抽象的统一操作语言，使用户专注于数据操作逻辑而非具体的数据存储类型，达到快速开发和移植的目的。
-[liteQ](https://github.com/thinkkoa/liteQ)  | 轻量级、开箱即用的SQL查询构造器，支持MySQL, PostgreSQL, MariaDB, Sqlite3和Oracle。
-[koatty_store](https://github.com/Koatty/koatty_store)  | Koatty存储驱动，使用Redis存储
+[koatty_store](https://github.com/Koatty/koatty_store)  | Koatty存储驱动，使用Redis以及内存存储
 
 ### Example
 
