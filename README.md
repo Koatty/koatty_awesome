@@ -15,7 +15,6 @@ Awesome projects for Koatty.
 [koatty_typeorm](https://github.com/Koatty/koatty_typeorm)  | 可用 |  typeorm插件，在框架内使用typeorm。
 [koatty_consul](https://github.com/Koatty/koatty_consul) | 开发中 |  基于Consul的微服务管理套件，包括服务注册、发现。
 [koatty_nacos](https://github.com/Koatty/koatty_nacos) | 开发中 |  基于Nacos的微服务管理套件，包括服务注册、发现，配置中心等。
-[koatty-SpringCloud](https://github.com/Koatty/koatty-SpringCloud) | 开发中 |  基于SpringCloud的微服务管理套件，包括服务注册、发现。
 
 ### Middlewares
 
@@ -59,5 +58,5 @@ Awesome projects for Koatty.
 名称  | 描述
 ------------- | -------------
 [koatty_demo](https://github.com/Koatty/koatty_demo) | Koatty示例
-
+[Koatty_NeteaseCloudMusicApi](https://github.com/Koatty/Koatty_NeteaseCloudMusicApi) | 基于 Koatty及NeteaseCloudMusicApi的移动端音乐webapp
 
