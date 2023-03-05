@@ -52,7 +52,7 @@ Awesome projects for Koatty.
 名称  | 描述
 ------------- | -------------
 [koatty_store](https://github.com/Koatty/koatty_store)  | Koatty存储驱动，使用Redis以及内存存储
-[koatty_cacheable](https://github.com/Koatty/koatty_cacheable) | Koatty框架的 CacheAble, Cacheable, CacheEvict 缓存相关支持库
+[koatty_cacheable](https://github.com/Koatty/koatty_cacheable) | Koatty框架的 CacheAble, Cacheable, CacheEvict 缓存相关装饰器支持库
 
 ### Example
 
