@@ -1,0 +1,60 @@
+{
+  "name": "koatty-example",
+  "version": "1.0.0",
+  "description": "Koatty 框架示例项目 - 展示各种功能和最佳实践",
+  "main": "dist/App.js",
+  "scripts": {
+    "dev": "ts-node src/App.ts",
+    "start": "node dist/App.js",
+    "build": "tsc",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint src/**/*.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "koatty",
+    "example",
+    "typescript",
+    "koa",
+    "ioc"
+  ],
+  "author": "Koatty Team",
+  "license": "MIT",
+  "dependencies": {
+    "koatty": "^4.0.0",
+    "koatty_router": "^4.0.0",
+    "koatty_serve": "^4.0.0",
+    "koatty_config": "^4.0.0",
+    "koatty_loader": "^4.0.0",
+    "koatty_logger": "^4.0.0",
+    "koatty_validation": "^4.0.0",
+    "koatty_exception": "^4.0.0",
+    "koatty_schedule": "^4.0.0",
+    "koatty_store": "^4.0.0",
+    "koatty_cacheable": "^4.0.0",
+    "koatty_client": "^4.0.0",
+    "koatty_proto": "^4.0.0",
+    "koatty_typeorm": "^4.0.0",
+    "class-validator": "^0.14.0",
+    "class-transformer": "^0.5.1",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/jest": "^29.0.0",
+    "@types/koa": "^2.13.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0",
+    "jest": "^29.0.0",
+    "ts-jest": "^29.0.0",
+    "supertest": "^6.3.0",
+    "@types/supertest": "^2.0.0",
+    "eslint": "^8.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

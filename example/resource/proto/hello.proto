@@ -1,0 +1,49 @@
+/**
+ * gRPC Proto 定义文件
+ * 
+ * 定义 Hello 服务的接口
+ */
+
+syntax = "proto3";
+
+package hello;
+
+// 问候服务
+service Hello {
+  // 简单问候
+  rpc SayHello (HelloRequest) returns (HelloReply);
+  
+  // 批量问候（服务器流）
+  rpc SayHelloStream (HelloRequest) returns (stream HelloReply);
+  
+  // 接收多个问候（客户端流）
+  rpc ReceiveHellos (stream HelloRequest) returns (HelloSummary);
+  
+  // 双向流
+  rpc Chat (stream ChatMessage) returns (stream ChatMessage);
+}
+
+// 问候请求
+message HelloRequest {
+  string name = 1;
+  int32 age = 2;
+}
+
+// 问候响应
+message HelloReply {
+  string message = 1;
+  int64 timestamp = 2;
+}
+
+// 问候摘要
+message HelloSummary {
+  int32 count = 1;
+  repeated string names = 2;
+}
+
+// 聊天消息
+message ChatMessage {
+  string from = 1;
+  string content = 2;
+  int64 timestamp = 3;
+}
