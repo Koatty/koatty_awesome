@@ -7,9 +7,9 @@ import {
   WsController, 
   GetMapping,
   RequestBody,
-  Autowired,
-  Logger
+  Autowired
 } from 'koatty';
+import { Log } from 'koatty_logger';
 import { App } from '../App';
 
 /**
@@ -31,7 +31,7 @@ export class ChatWsController {
   app: App;
   ctx: any;
   
-  @Logger()
+  @Log()
   logger: any;
   
   // 存储所有连接的客户端

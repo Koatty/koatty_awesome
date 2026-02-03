@@ -13,9 +13,9 @@ import {
   PathVariable,
   QueryParam,
   Autowired,
-  Validated,
-  Logger
+  Validated
 } from 'koatty';
+import { Log } from 'koatty_logger';
 import { App } from '../App';
 import { UserService, User } from '../service/UserService';
 import { CreateUserDto, UpdateUserDto } from '../dto/UserDto';
@@ -93,7 +93,7 @@ export class UserController {
   ctx: any;
   
   // 注入日志器
-  @Logger()
+  @Log()
   logger: any;
   
   // 注入 UserService

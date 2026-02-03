@@ -7,9 +7,9 @@ import {
   GrpcController, 
   PostMapping, 
   RequestBody,
-  Validated,
-  Logger
+  Validated
 } from 'koatty';
+import { Log } from 'koatty_logger';
 import { App } from '../App';
 
 /**
@@ -48,7 +48,7 @@ export class HelloGrpcController {
   app: App;
   ctx: any;
   
-  @Logger()
+  @Log()
   logger: any;
   
   constructor(ctx: any) {

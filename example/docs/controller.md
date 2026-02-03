@@ -215,11 +215,12 @@ export class UserController {
 ### 注入 Logger
 
 ```typescript
-import { Logger } from 'koatty';
+import { Controller, GetMapping } from 'koatty';
+import { Log } from 'koatty_logger';
 
 @Controller('/api')
 export class MyController {
-  @Logger()
+  @Log()
   logger: any;
   
   @GetMapping('/')
@@ -337,4 +338,4 @@ async getUser(@PathVariable('id') id: number) {
 2. **依赖注入**: 使用 `@Autowired` 注入 Service，不要直接实例化
 3. **DTO 验证**: 使用 `@Validated()` 和 DTO 类进行参数验证
 4. **错误处理**: 统一错误响应格式
-5. **日志记录**: 使用 `@Logger()` 注入日志器记录关键操作
+5. **日志记录**: 使用 `@Log()` 注入日志器记录关键操作

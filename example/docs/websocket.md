@@ -82,7 +82,8 @@ export class ChatController {
 ### 完整聊天室示例
 
 ```typescript
-import { WsController, GetMapping, RequestBody, Logger } from 'koatty';
+import { WsController, GetMapping, RequestBody } from 'koatty';
+import { Log } from 'koatty_logger';
 import { App } from '../App';
 
 interface ChatMessage {
@@ -97,7 +98,7 @@ export class ChatRoomController {
   app: App;
   ctx: any;
   
-  @Logger()
+  @Log()
   logger: any;
   
   // 存储所有客户端连接
@@ -725,7 +726,7 @@ export class CleanController {
 ```typescript
 @WsController('/ws')
 export class LoggedController {
-  @Logger()
+  @Log()
   logger: any;
   
   async onConnection(): Promise<void> {

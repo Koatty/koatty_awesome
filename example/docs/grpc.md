@@ -532,11 +532,11 @@ async streamData(): Promise<void> {
 ### 3. 使用日志记录
 
 ```typescript
-import { Logger } from 'koatty';
+import { Log } from 'koatty_logger';
 
 @GrpcController('/Hello')
 export class HelloController {
-  @Logger()
+  @Log()
   logger: any;
   
   @PostMapping('/SayHello')
