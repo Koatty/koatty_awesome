@@ -242,12 +242,12 @@ npm start
 
 ## 文档
 
-- [控制器教程](./docs/controller.md)
-- [服务层教程](./docs/service.md)
-- [中间件教程](./docs/middleware.md)
-- [配置教程](./docs/config.md)
-- [gRPC 教程](./docs/grpc.md)
-- [WebSocket 教程](./docs/websocket.md)
+- [控制器教程](./example/docs/controller.md)
+- [服务层教程](./example/docs/service.md)
+- [中间件教程](./example/docs/middleware.md)
+- [配置教程](./example/docs/config.md)
+- [gRPC 教程](./example/docs/grpc.md)
+- [WebSocket 教程](./example/docs/websocket.md)
 
 ## 相关链接
 
